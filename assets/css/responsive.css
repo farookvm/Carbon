@@ -1,0 +1,354 @@
+
+/* ******************************
+:: 1.0 COMMON CSS
+****************************** */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ptb_180 {
+        padding: 130px 0;
+    }
+
+    .ptb_150 {
+        padding: 100px 0;
+    }
+
+    .ptb_100 {
+        padding: 70px 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .res-margin {
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .inner-wrapper h1,
+    .inner-wrapper h2 {
+        font-size: 30px;
+    }
+
+    .ptb_180 {
+        padding: 130px 0;
+    }
+
+    .ptb_150,
+    .ptb_100 {
+        padding: 50px 0;
+    }
+
+    .res-margin {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .inner-wrapper h1,
+    .inner-wrapper h2 {
+        font-size: 24px;
+    }
+
+    .avatar-lg {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .container-fluid {
+        padding: 0 3%;
+    }
+
+    .ptb_180 {
+        padding: 80px 0;
+    }
+}
+
+/*SECTION HEADING*/
+@media (max-width: 991px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .section-heading {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2.8em;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 2em;
+        line-height: 1.4;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    p {
+        line-height: 26px;
+    }
+
+    .headings > h2,
+    .section-heading > h2 {
+        line-height: 1.5;
+    }
+}
+
+
+
+/* ******************************
+:: 3.0 Custom Responsive CSS
+****************************** */
+
+@media(max-width: 1199px){
+    .welcome-form h3{
+        font-size: 22px;
+    }
+    .bn-content h1{
+        font-size: 36px;
+    }
+
+    .bn-content h2{
+        padding: 10px;
+        font-size: 30px;
+        width: 80%;
+    }
+
+   
+    .feature-head {
+        padding: 57px 40px;
+    }
+
+   
+    .about-carbon p{
+        font-size: 16px;
+        padding: 20px;
+    }
+  
+    .testimonial p{
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .testimonial h3 {
+        font-size: 38px;
+    }
+
+    .testi-cont {
+        padding-top: 20px;
+      }
+    .testi-cont h4{
+        padding-top: 20px;
+    }
+
+}
+
+@media(max-width: 991px){
+
+    .logo img {
+        width: 250px;
+    }
+
+    .bn-img {
+        display: none;
+    }
+
+    .bn-content{
+        margin-top: 0px;
+        padding: 0;
+        position: relative;
+        top: 0;
+    }
+
+    .bn-content h1{
+        padding: 30px 0;
+        text-align: center;
+        font-size: 38px;
+    }
+
+    .bn-content h1 span{
+        display: block;
+    }
+
+    .bn-content h2{
+        padding: 20px;
+        width: 100%;
+    }
+
+    .ban-mob-bg{
+        background-color: #e8e9e3;
+        padding: 0 50px;
+        margin-top: -155px;
+    }
+
+    .form-title{
+        padding-bottom: 20px;
+    }
+
+    .welcome-form h3{
+        width: 100%;
+    }
+
+    .feature-box{
+        display: flex;
+        align-items: center;
+    }
+    .about-vyas {
+        padding: 0;
+    }
+
+    .about-vyas img{
+        width: 100px;
+    }
+
+    .book-seats-now{
+        padding-top: 50px;
+    }
+
+    .foot-call{
+        padding-top: 50px;
+    }
+
+    .pp-left{
+        display: none;
+    }
+
+    .about-carbon p{
+        font-size: 21px;
+        padding: 40px;
+    }
+
+    .about-vyas{
+        padding-bottom: 50px;
+    }
+
+    .foot-logo{
+        padding-top: 30px;
+    }
+
+
+}
+
+@media(max-width: 767px){
+
+    .bn-content h2{
+        font-size: 28px;
+    }
+
+    .quote {
+        padding-right: 10px;
+      }
+
+    .quote img {
+        width: 35px;
+      }
+
+    .testimonial h3 {
+        font-size: 34px;
+    }
+
+    .testimonial p {
+        font-size: 17px;
+    }
+
+    .about-vyas h3 {
+        font-size: 30px;
+    }
+
+    .about-vyas p {
+        font-size: 19px;
+        padding: 20px 0;
+    }
+
+    .about-carbon h2 {
+        font-size: 34px;
+    }
+
+    .about-carbon p {
+        font-size: 19px;
+        padding: 20px 40px;
+      }
+      
+      
+
+}
+
+@media(max-width: 575px){
+    
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .welcome-form {
+        padding: 55px 40px;
+
+    }
+    .bn-content h1{
+        font-size: 32px;
+    }
+
+    .bn-content h2 {
+        font-size: 26px;
+    }
+
+    .ban-mob-bg{
+        padding: 0;
+    }
+
+    .seminar-dm, .seminar-orange-dm{
+        width: 110px;
+    }
+
+    .seminar h1{
+        font-size: 40px;
+    }
+
+    .sem-book-now a, .sem-orange-book-now a{
+        padding: 20px 40px;
+    }
+
+    .sem-date{
+        font-size: 60px;
+    }
+
+    .feature-box{
+        padding: 30px;
+    }
+
+    .feature-box img{
+        width: 110px;
+    }
+
+    .feature-box h4{
+        font-size: 22px;
+    }
+
+    .feature-head h2{
+        font-size: 36px;
+    }
+
+}
+
+
