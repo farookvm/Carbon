@@ -15,7 +15,7 @@ $medium = $_GET['utm_medium'];
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title  -->
-    <title>Carbon Classes</title>
+    <title>Carbon</title>
 
     <!-- ***** All CSS Files ***** -->
 
